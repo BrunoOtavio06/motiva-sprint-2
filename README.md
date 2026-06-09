@@ -2,19 +2,15 @@
 
 Aplicativo mobile desenvolvido com **React Native + Expo + TypeScript** para registro e acompanhamento de ocorrências de segurança de motoboys.
 
----
-
 ## 👥 Integrantes
 
-| Nome | RM |
-|------|-----|
-| João Vitor Santana Silva Ribeiro | RM564693 |
-| Letícia Gabrielle Andrade Temóteo | RM563985 |
-| Stefanny Brum Dos Santos | RM566216 |
-| Gustavo Cordeiro Braga | RM562247 |
-| Bruno Otávio da Cruz Carvalho | RM562354 |
-
----
+| Nome                              | RM     |
+| --------------------------------- | ------ |
+| João Vitor Santana Silva Ribeiro  | 564693 |
+| Letícia Gabrielle Andrade Temóteo | 563985 |
+| Stefanny Brum Dos Santos          | 566216 |
+| Gustavo Cordeiro Braga            | 562247 |
+| Bruno Otávio da Cruz Carvalho     | 562354 |
 
 ## 📱 O que o app faz
 
@@ -25,8 +21,6 @@ O **Motiva Safety** permite que motoboys e gestores registrem ocorrências de se
 - ✅ **Cadastrar nova ocorrência** com título, descrição, local, responsável e nível de risco
 - ✅ **Ver detalhes completos** de cada ocorrência registrada
 - ✅ Ocorrências novas ficam **salvas no estado** durante a sessão
-
----
 
 ## 🏗️ Estrutura do Projeto
 
@@ -48,8 +42,6 @@ motiva-sprint2/
         ├── CadastroOcorrencia.tsx  # Formulário de nova ocorrência
         └── DetalheOcorrencia.tsx   # Detalhes de uma ocorrência
 ```
-
----
 
 ## 🗂️ Como os dados estão mockados
 
@@ -74,8 +66,6 @@ export const ocorrenciasMock: Ocorrencia[] = [
 
 O estado é gerenciado em `App.tsx` com `useState`, e novas ocorrências cadastradas pelo usuário são adicionadas ao array em tempo real — sem banco de dados ou requisições externas.
 
----
-
 ## 🚀 Como rodar o projeto
 
 ### Pré-requisitos
@@ -89,22 +79,26 @@ O estado é gerenciado em `App.tsx` com `useState`, e novas ocorrências cadastr
 
 ### Passos
 
+**1. Clone o repositório:**
+
 ```bash
-# 1. Clone o repositório
-git clone https://github.com/Joao-Vitor06/Sprint_CrossPlataform
-cd motiva-sprint2
-
-# 2. Instale as dependências
-npm install
-
-# 3. Inicie o servidor de desenvolvimento
-npx expo start
-
-# 4. Escaneie o QR Code com o Expo Go (Android) 
-#    ou com a câmera (iOS)
+git clone https://github.com/BrunoOtavio06/motiva-sprint-2.git
+cd motiva-sprint-2
 ```
 
----
+**2. Instale as dependências:**
+
+```bash
+npm install
+```
+
+**3. Inicie o servidor de desenvolvimento:**
+
+```bash
+npx expo start
+```
+
+**4. Escaneie o QR Code com o Expo Go.**
 
 ## 🧭 Navegação
 
@@ -115,20 +109,16 @@ type Tela = "lista" | "cadastro" | "detalhe";
 const [telaAtual, setTelaAtual] = useState<Tela>("lista");
 ```
 
----
-
 ## 📦 Dependências principais
 
-| Pacote | Versão | Uso |
-|--------|--------|-----|
-| `expo` | ~51.0.0 | Framework base |
-| `react-native` | 0.74.5 | UI nativa |
-| `typescript` | ^5.1.3 | Tipagem estática |
-
----
+| Pacote         | Versão  | Uso              |
+| -------------- | ------- | ---------------- |
+| `expo`         | ~51.0.0 | Framework base   |
+| `react-native` | 0.74.5  | UI nativa        |
+| `typescript`   | ^5.1.3  | Tipagem estática |
 
 ## 🔗 Links
 
 - **Repositório:** https://github.com/Joao-Vitor06/Sprint_CrossPlataform
 - **Protótipo Figma:** https://dialog-glade-82150722.figma.site/
-- **Vídeo demonstração:** *(adicionar link do YouTube após gravação)*
+- **Vídeo demonstração:** _(adicionar link do YouTube após gravação)_
