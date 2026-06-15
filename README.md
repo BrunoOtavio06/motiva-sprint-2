@@ -121,4 +121,4 @@ const [telaAtual, setTelaAtual] = useState<Tela>("lista");
 
 - **Repositório:** https://github.com/BrunoOtavio06/motiva-sprint-2
 - **Protótipo Figma:** https://dialog-glade-82150722.figma.site/
-- **Vídeo demonstração:** _(adicionar link do YouTube após gravação)_
+- **Vídeo demonstração:** https://youtube.com/shorts/w-BipRZ9_6k?is=o-iWZgDKDvfaJnut
